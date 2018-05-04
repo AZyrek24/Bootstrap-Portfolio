@@ -12,10 +12,14 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-sm border-bottom navbar-light bg-light">
+  <nav class="navbar navbar-expand-md border-bottom navbar-light bg-light py-0">
     <a href="index.html" id="name-header">Tony Lee Zyrek</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <!-- links -->
-    <div class="navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link" href="index.html">About</a>
@@ -30,41 +34,51 @@
     </div>
   </nav>
 
-  <div class="row top-buffer">    
-    <div class="col-md-2"></div>
-    <div class="col-md-8">      
-      <div class="row">        
-        <div class="col-md-12 border-bottom sub-container">
-          <h1 class="text-left">About Me</h1>
-        </div>        
-      </div>      
-      
-      <div class="row" id="bio-container">        
-        <div class="col-md-12 sub-container">          
-          <img src="assets/images/Tony.jpg" alt="Tony Lee Zyrek" class="page-images">          
-          <p>
-            Hello, my name is Tony Lee Zyrek and I am a student at the University of Arizona Coding Bootcamp, based in Tucson, AZ. I
-            am learning to code as a full-stack web developer, and I am excited for the challenges ahead. My goals are to
-            have done work in software development, front-end/back-end web, database/server management, mobile app development,
-            video game development, and artificial intelligence.
-          </p>
-          <p>
-            I believe that a strong website demonstrates
-            <em>ideas</em>; a place where I feel I can separate myself from others developers. I love to compose and play music,
-            and I am a fan of the arts. Half of the reason that I like to golf is because I appreciate the landscape. The
-            other half is continuing to improve at a life-long sport. It is with this mentality that I can continue to bring
-            fresh ideas and compelling designs to an ever-growing internet.
-          </p>          
-        </div>        
-      </div>
-    </div>
-    <div class="col-md-2"></div>    
-  </div>
+  <div class="container-fluid">
 
+    <div class="row top-buffer">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-12 border-bottom sub-container">
+            <h1 class="text-left">About Me</h1>
+          </div>
+        </div>
+
+        <div class="row" id="bio-container">
+          <div class="col-md-12 sub-container">
+            <img src="assets/images/Tony.jpg" alt="Tony Lee Zyrek" class="page-images">
+            <p>
+              Hello, my name is Tony Lee Zyrek and I am a student at the University of Arizona Coding Bootcamp, based in Tucson, AZ. I
+              am learning to code as a full-stack web developer, and I am excited for the challenges ahead. My goals are
+              to have done work in software development, front-end/back-end web, database/server management, mobile app development,
+              video game development, and artificial intelligence.
+            </p>
+            <p>
+              I believe that a strong website demonstrates
+              <i>ideas</i>; a place where I feel I can separate myself from others developers. I love to compose and play music,
+              and I am a fan of the arts. Half of the reason that I like to golf is because I appreciate the landscape. The
+              other half is continuing to improve at a life-long sport. It is with this mentality that I can continue to
+              bring fresh ideas and compelling designs to an ever-growing internet.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
   <footer class="footer">
     <div class="container">
       <span class="text-muted">Copyright&copy</span>
     </div>
   </footer>
-  
+
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+  crossorigin="anonymous"></script>
+
+</html>
