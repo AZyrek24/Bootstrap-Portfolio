@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Bootstrap-Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
     crossorigin="anonymous">
@@ -37,17 +38,19 @@
   <div class="container-fluid">
 
     <div class="row top-buffer">
-      <div class="col-md-2"></div>
-      <div class="col-md-8">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
         <div class="row">
           <div class="col-md-12 border-bottom sub-container">
             <h1 class="text-left">About Me</h1>
           </div>
         </div>
 
-        <div class="row" id="bio-container">
-          <div class="col-md-12 sub-container">
-            <img src="assets/images/Tony.jpg" alt="Tony Lee Zyrek" class="page-images">
+        <div class="row">
+          <div class="col-md-4 sub-container" id="bio-container">
+            <img src="assets/images/tony.jpg" class="image-fluid" id="about-image" alt="Responsive image">
+          </div>
+          <div class="col-md-8 sub-container" id="bio-container">
             <p>
               Hello, my name is Tony Lee Zyrek and I am a student at the University of Arizona Coding Bootcamp, based in Tucson, AZ. I
               am learning to code as a full-stack web developer, and I am excited for the challenges ahead. My goals are
@@ -64,8 +67,9 @@
           </div>
         </div>
       </div>
-      <div class="col-md-2"></div>
+      <div class="col-sm-2"></div>
     </div>
+
   </div>
   <footer class="footer">
     <div class="container">
