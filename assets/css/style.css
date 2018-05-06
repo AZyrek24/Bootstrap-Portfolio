@@ -176,9 +176,6 @@ input[type=submit] {
   }
   .image-container h3 {
     width: 100%;
-  }
-  #about-image {
-    margin-bottom: 200px;
-  }
+  } 
   
 }
